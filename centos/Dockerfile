@@ -10,7 +10,7 @@ RUN chown -R mynewuser:root /home/mynewuser
 
 USER mynewuser
 
-EXPOSE 3050
+EXPOSE 3080
 
 COPY echoer echoer
 CMD ["./echoer"]
